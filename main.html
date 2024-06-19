@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGAR ACCESO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PAGAR</h1>
+        <div id="paypal-button-container"></div>
+        <div class="link" id="paymentLink">
+            <p>Pago realizado con éxito. Haz clic en el siguiente enlace para ENVIAR COMPROBANTE:</p>
+            <a href="https://t.me/ElDirectorReal" target="_blank">ir a Telegram</a>
+        </div>
+    </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=AT8aIO41FSPUjQP0kZ-ScQEmc6epUsHXQiaDt-DLfYDmAZBkhyBotiOycVm3rKcsynJtGt_hYsuWjLK7&currency=USD&intent=capture&disable-funding=credit,card"></script>
+    <script src="script.js"></script>
+</body>
+</html>
